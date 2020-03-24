@@ -1,0 +1,19 @@
+/*
+ * To change this license header, choose License Headers in Project Properties.
+ * To change this template file, choose Tools | Templates
+ * and open the template in the editor.
+ */
+package Ejer1;
+
+/**
+ *
+ * @author jose reynaldo
+ */
+public class Trompeta extends InstrumentoMusical {
+
+    public Trompeta(String nombre, String color, String tamaño) {
+        super(nombre, color, tamaño);
+    }
+
+     public String Sonar(){return "TIRIRII";}
+}
